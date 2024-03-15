@@ -1,0 +1,33 @@
+.card {
+  border: solid #928c8c 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(96, 93, 93, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .artist{
+  height: auto;
+  width: 150px;
+  border-radius: 50%;
+  max-width: 60%;
+}
+.card .title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(42, 113, 172);
+}
+.card .text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(106, 153, 193); 
+}
+
+.btn{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} 
